@@ -1,16 +1,6 @@
 html *{
    font-family: Helvetica;
 }
-html a{
-	color: darkgray;
-	text-decoration: none;
-}
-
-html a:hover{
-	color: black;
-}
-
-
 
 .links{
 	color: LightBlue;
@@ -223,7 +213,7 @@ html a:hover{
 	display: inline-block;
 }
 
-/* Blog summary page*/
+/* Blog */
 .blog_row{
 	display: inline-block;
 	padding-left: 10px;
@@ -264,17 +254,17 @@ html a:hover{
 .blog_summary_square h1{
 	font-size: 25px;
 	margin-top:-4px;
-	color:white;
 }
 
 .blog_summary_square h2{
 	font-size: 13px;
+	opacity: 0.5;
 	margin-top:-5px;
-	margin-bottom:-3px;
 }
 
 .blog_summary_square_image{
 	height: 212px;
+	width: 300px;
 	float: left;
 }
 
@@ -291,7 +281,7 @@ html a:hover{
 	font-size: 12px;
 	list-style-type: none;
 	padding-left: 0;
-	padding-top:5px;
+	padding-top:0;
 }
 
 .keywords li{
@@ -353,28 +343,8 @@ html a:hover{
 	display: block;
   }
 
-}
 
-/* Blog post page*/
 
-.blog_post_top_image{
-	height: 300px;
-	float: left;
-	
-}
-
-.blog_post_top_image_div{
-	width: 100%;
-	display: inline-block;
-	padding-top: 10px;
-}
-
-.image_credit{
-	width: 100%;
-}
-
-.image_credit p{
-	font-size: 12px;
 }
 
 
