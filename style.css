@@ -127,7 +127,9 @@ html a:hover{
 
 .main-body {
   background: #333;
-  color: white;  
+  color: white;
+  padding-left: 10px; 
+  padding-right: 10px;  
 }
 
 .main-body p {
@@ -366,7 +368,7 @@ html a:hover{
 .blog_post_top_image_div{
 	width: 100%;
 	display: inline-block;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 .image_credit{
