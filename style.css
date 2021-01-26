@@ -408,8 +408,6 @@ html a:hover{
 	margin-bottom:30px;
 }
 
-
-
 .image_credit{
 	width: 100%;
 	padding-top: 10px;
@@ -448,18 +446,16 @@ html a:hover{
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
-	min-width: 600px;
 	display: inline-block;
 }
-
 
 .blog_body{
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
+	overflow: auto;
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
-	box-sizing: border-box;
 }
 
   }
