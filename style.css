@@ -393,6 +393,11 @@ html a:hover{
 	box-sizing: border-box;
 }
 
+.blog_post_text{
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+}
+
 .blog_body h1{
 	margin-bottom: 0px;
 }
@@ -407,6 +412,7 @@ html a:hover{
 
 .image_credit{
 	width: 100%;
+	padding-top: 10px;
 }
 
 .image_credit p{
