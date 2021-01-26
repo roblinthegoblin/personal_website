@@ -1,6 +1,16 @@
 html *{
    font-family: Helvetica;
 }
+html a{
+	color: darkgray;
+	text-decoration: none;
+}
+
+html a:hover{
+	color: black;
+}
+
+
 
 .links{
 	color: LightBlue;
@@ -117,7 +127,9 @@ html *{
 
 .main-body {
   background: #333;
-  color: white;  
+  color: white;
+  padding-left: 10px; 
+  padding-right: 10px;  
 }
 
 .main-body p {
@@ -213,7 +225,7 @@ html *{
 	display: inline-block;
 }
 
-/* Blog */
+/* Blog summary page*/
 .blog_row{
 	display: inline-block;
 	padding-left: 10px;
@@ -254,17 +266,17 @@ html *{
 .blog_summary_square h1{
 	font-size: 25px;
 	margin-top:-4px;
+	color:white;
 }
 
 .blog_summary_square h2{
 	font-size: 13px;
-	opacity: 0.5;
 	margin-top:-5px;
+	margin-bottom:-3px;
 }
 
 .blog_summary_square_image{
 	height: 212px;
-	width: 300px;
 	float: left;
 }
 
@@ -281,12 +293,16 @@ html *{
 	font-size: 12px;
 	list-style-type: none;
 	padding-left: 0;
-	padding-top:0;
+	padding-top:5px;
 }
 
 .keywords li{
 	display: inline;
 	margin: 0 30px 0 0;
+}
+
+.blog_date_summary{
+	font-size: 14px;
 }
 
 @media (max-width: 800px) {
@@ -305,8 +321,8 @@ html *{
 }
 
 .blog_summary_square_image{
-	height: 212px;
 	width: 100%;
+	height: auto;
 	order: 1;
 	margin-bottom: 10px;
 }
@@ -343,9 +359,106 @@ html *{
 	display: block;
   }
 
+}
 
+/* Blog post page*/
+
+.blog_body_top_image_div{
+	margin-left: 30%;
+	padding-top: 50px;
+	width: 40%;
+	min-width: 600px;
+	display: inline-block;
+}
+
+.blog_body_spacer{
+	width: 40%;
+	display: flex;
+}
+
+.blog_body_top_image{
+	width: 100%;
+	display: flex;
+	justify-content: center;
 
 }
+
+.blog_body{
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	min-width: 600px;
+	background-color: #5a5856;
+	padding: 10px 20px 10px 20px;
+	box-sizing: border-box;
+}
+
+.blog_post_text{
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+}
+
+.blog_body h1{
+	margin-bottom: 0px;
+}
+
+.blog_date_article h2{
+	font-size: 16px;
+	opacity: 50%;
+	margin-bottom:30px;
+}
+
+.image_credit{
+	width: 100%;
+	padding-top: 10px;
+}
+
+.image_credit p{
+	font-size: 12px;
+}
+
+
+.blog_body blockquote{
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blog_body blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+  }
+
+  .blog_body blockquote p {
+	display: inline;
+  }
+
+  @media (max-width: 800px) {
+	/* CSS that should be displayed if width is equal to or less than 800px goes here */
+
+.blog_body_top_image_div{
+	padding-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	display: inline-block;
+}
+
+.blog_body{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	overflow: auto;
+	background-color: #5a5856;
+	padding: 10px 20px 10px 20px;
+}
+
+  }
 
 
 /*
