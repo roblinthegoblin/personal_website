@@ -364,10 +364,10 @@ html a:hover{
 /* Blog post page*/
 
 .blog_body_top_image_div{
-	margin-left: 30%;
 	padding-top: 50px;
-	width: 40%;
-	min-width: 600px;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+	width: 55%;
 	display: inline-block;
 }
 
@@ -384,10 +384,9 @@ html a:hover{
 }
 
 .blog_body{
-	margin-left: 30%;
-	margin-right: 30%;
-	width: 40%;
-	min-width: 600px;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+	width: 55%;
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
 	box-sizing: border-box;
@@ -443,16 +442,16 @@ html a:hover{
 
 .blog_body_top_image_div{
 	padding-top: 50px;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
 	display: inline-block;
 }
 
 .blog_body{
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
 	overflow: auto;
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
