@@ -453,7 +453,6 @@ html a:hover{
 	margin-left: 5%;
 	margin-right: 5%;
 	width: 90%;
-	overflow: auto;
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
 }
