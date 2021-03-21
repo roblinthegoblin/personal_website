@@ -21,7 +21,7 @@ html a:hover{
   }
 
 .linkedin_logo {
-  height: 30px;
+  height: 50px;
   float: right;
 }
 
@@ -257,22 +257,26 @@ html a:hover{
 
 .blog_summary_text p{
 	padding: 0,0,0,0;
-}
-
-.blog_summary_square p{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .blog_summary_square h1{
-	font-size: 25px;
+	font-size: 32px;
 	margin-top:-4px;
 	color:white;
 }
 
 .blog_summary_square h2{
-	font-size: 13px;
+	font-size: 14px;
 	margin-top:-5px;
-	margin-bottom:-3px;
+	margin-bottom:0px;
+}
+
+.blog_summary_square h3{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom:0px;
+	font-style: italic;
 }
 
 .blog_summary_square_image{
@@ -299,6 +303,12 @@ html a:hover{
 .keywords li{
 	display: inline;
 	margin: 0 30px 0 0;
+}
+
+
+.blog_author_summary:before {
+	content: 'Author: ';
+	font-style: normal;
 }
 
 .blog_date_summary{
@@ -367,7 +377,7 @@ html a:hover{
 	margin-left: 30%;
 	padding-top: 50px;
 	width: 40%;
-	min-width: 600px;
+	/*min-width: 600px;*/
 	display: inline-block;
 }
 
@@ -387,7 +397,7 @@ html a:hover{
 	margin-left: 30%;
 	margin-right: 30%;
 	width: 40%;
-	min-width: 600px;
+	/*min-width: 600px;*/
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
 	box-sizing: border-box;
@@ -438,24 +448,40 @@ html a:hover{
 	display: inline;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
 	/* CSS that should be displayed if width is equal to or less than 800px goes here */
 
 .blog_body_top_image_div{
 	padding-top: 50px;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 94%;
 	display: inline-block;
 }
 
 .blog_body{
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 94%;
 	background-color: #5a5856;
 	padding: 10px 20px 10px 20px;
+	display: inline-block;
 }
+
+.main-body {
+	background: #333;
+	color: white;
+	padding-left: 0px; 
+	padding-right: 0px;  
+  }
+
+  .main-body-full{
+	display: inline-block;
+	flex: 1;
+	margin-top: -20px;
+}
+
+
 
   }
 
