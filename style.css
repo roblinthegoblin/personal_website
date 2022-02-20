@@ -136,6 +136,10 @@ html a:hover{
   font-size: 18px;
 }
 
+.main-body li {
+	font-size: 18px;
+  }
+
 .main-body-full{
 	display: inline-block;
 	overflow: auto;
@@ -175,7 +179,14 @@ html a:hover{
   flex: 1;
 }
 
+.main_body_section{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
 
+.main_body_section p{
+	font-size: 18px;
+}
 
 
 /* Footer */
@@ -315,11 +326,22 @@ html a:hover{
 	font-size: 14px;
 }
 
+.grid-container-two-col {
+	display: grid;
+	grid-template-columns: auto auto;
+	/*background-color: #2196F3;*/
+	padding: 10px;
+  }
+
+
+
+
 @media (max-width: 800px) {
 	/* CSS that should be displayed if width is equal to or less than 800px goes here */
 
 .adjacent_divs_main{
 	display:inline-block;
+
 }
 
 .adjacent_divs_blog_summary{
